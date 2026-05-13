@@ -1,17 +1,17 @@
-# 🏠 Prédiction du Prix Immobilier — California Housing
+#  Prédiction du Prix Immobilier — California Housing
 
 Projet de machine learning de bout en bout sur le dataset **California Housing**.
 
 ---
 
-## 📌 Problème traité
+##  Problème traité
 
 Prédire la **valeur médiane des logements** (en 100 000 $) pour des blocs de
 recensement en Californie (données 1990). C'est un problème de **régression supervisée**.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 | Propriété | Valeur |
 |---|---|
@@ -25,7 +25,7 @@ AveOccup, Latitude, Longitude.
 
 ---
 
-## 🛠️ Pipeline
+## Pipeline
 
 ```
 Dataset → Nettoyage → Split 80/20 → Normalisation → Modèles → Évaluation → Interface
@@ -41,7 +41,7 @@ Dataset → Nettoyage → Split 80/20 → Normalisation → Modèles → Évalua
 
 ---
 
-## 📊 Résultats
+##  Résultats
 
 | Modèle | MAE | RMSE | R² |
 |---|---|---|---|
@@ -49,11 +49,11 @@ Dataset → Nettoyage → Split 80/20 → Normalisation → Modèles → Évalua
 | Random Forest | ~0.33 | ~0.50 | **~0.80** |
 | Gradient Boosting | ~0.37 | ~0.53 | ~0.77 |
 
-🏆 **Meilleur modèle : Random Forest** (R² ≈ 0.80)
+ **Meilleur modèle : Random Forest** (R² ≈ 0.80)
 
 ---
 
-## ▶️ Lancer le projet
+## Lancer le projet
 
 ### 1. Installer les dépendances
 
@@ -76,7 +76,7 @@ prédire le prix d'un logement en ajustant des sliders.
 
 ---
 
-## 📦 Structure du projet
+##  Structure du projet
 
 ```
 housing_prediction/
@@ -88,7 +88,7 @@ housing_prediction/
 
 ---
 
-## 👥 Auteurs
+## 👥 Auteur
 
-- Étudiant 1 — [Prénom Nom]
-- Étudiant 2 — [Prénom Nom]
+- Étudiant  — Omar Boussiline
+
